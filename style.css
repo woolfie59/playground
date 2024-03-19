@@ -1,0 +1,30 @@
+/* * {
+    margin: 0.5;
+    padding: 0;
+} */
+
+h3 {
+    color: green;
+}
+
+h1{
+    color: #f341be;
+    background-color: aquamarine;
+}
+
+#apples {
+    color:blue
+}
+#balloons {
+    background-color: darkgoldenrod;
+}
+
+p {
+    background-color: blueviolet;
+    font-size: 0.9rem;
+    color:aliceblue;
+    
+}
+img {
+    height: 7rem;
+}
