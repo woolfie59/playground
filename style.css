@@ -3,13 +3,48 @@
     padding: 0;
 } */
 
-h3 {
-    color: green;
+/* body {
+    background-color: #afc4ec;
+} */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center; 
+    background-color: rgb(0, 0, 0);
+}
+
+li a {
+    display: block;
+    color:#ffffff;
+    width: 60px;
+    text-decoration: none;
+    padding: 8px 16px;
 }
 
 h1{
     color: #f341be;
     background-color: aquamarine;
+    /* font-size: small; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+h3 {
+    color: green;
 }
 
 #apples {
@@ -23,8 +58,18 @@ p {
     background-color: blueviolet;
     font-size: 0.9rem;
     color:aliceblue;
-    
+    font-size: medium;
 }
+
 img {
     height: 7rem;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: gray
+}
+
